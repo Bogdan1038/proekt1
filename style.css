@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: green url("images/macboook-pro-wallpaper-1024x576.jpg") no-repeat center/cover fixed;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+.header {
+    background-color: #1DC92E;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    position: fixed;
+    width: 100%;
+}
+.header-menu-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    height: 80px;
+}
+.header-item {
+    list-style-type: none;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Mali", cursive;
+    font-weight: 600;
+    font-style: normal;
+    color: #09731A;
+}
+.header-menu-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 35px;
+}
+.img-logo {
+    width: 376px;
+    height: 66px;
+}
+.a-logo {
+    margin-right: 350px;
+}
+a {
+    text-decoration: none;
+    color: #09731A;
+}
+a:hover {
+    color: white;
+}
+.title {
+    font-family: "Mali", cursive;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.erste {
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zweite {
+    margin-top: 40px;
+    width: 900px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-menu {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.button-kauf {
+    font-family: "Mali", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    background-color: #1DC92E;
+    width: 655px;
+    height: 105px;
+    color: #09731A;
+    border: 0px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.button-kauf:hover {
+    background-color: white;
+}
+.info {
+    background-color: #023C08;
+    height: 500px;
+}
+
+.info2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.mini-title {
+    font-size: 30px;
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #C4FFA8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+.mini-title-frage {
+    color: #8FCF70;
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+} 
+.text1 {
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #52FF00;
+    text-align: center;
+    width: 750px;
+    margin-top: 10px;
+}
+.markt-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    height: 30vw;
+    margin: 0 auto;
+}
+.text-markt {
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: white;
+    width: 500px;
+    text-align: center;
+    height: 300px;
+}
+.title-markt {
+    font-size: 34px;
+}
+.img-markt {
+    background-image: url("images/2x1_NSwitch_MinecraftLegends.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 300px;  
+}
+.footer {
+    background-color: #1DC92E;
+    height: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Mali", cursive;
+    font-weight: 500;
+    font-style: normal;
+    color: #09731A;
+    font-size: 20px;
+}
+.footer-item {
+    margin-bottom: 3px;
+    margin-left: 20px;
+    list-style-type: none;
+}
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    height: 7vw;
+}
+.markt-besuchen {
+    display: block;
+    margin-top: 10px;
+}
+.markt-besuchen-a {
+    color: yellow;
+} 
+

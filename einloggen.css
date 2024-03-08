@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: green url("images/macboook-pro-wallpaper-1024x576.jpg") no-repeat center/cover fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header {
+    background-color: #1DC92E;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    position: fixed;
+    width: 100%;
+}
+.header-menu-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    height: 80px;
+}
+.header-item {
+    list-style-type: none;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Mali", cursive;
+    font-weight: 600;
+    font-style: normal;
+    color: #09731A;
+}
+.header-menu-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 35px;
+}
+.img-logo {
+    width: 376px;
+    height: 66px;
+}
+.a-logo {
+    margin-right: 350px;
+}
+a {
+    text-decoration: none;
+    color: #09731A;
+}
+a:hover {
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vw;
+}
+.form-container {
+    display: flex;
+}
+.inputs {
+    width: 40vw;
+    height: 14vw;
+    background-color: #09731A;
+    opacity: 80%;
+    color: white;
+    font-family: "Mali", cursive;
+    flex-wrap: wrap ;
+}
+.title-inputs-div {
+    display: flex;
+    justify-content: center;
+}
+.title-inputs {
+    font-weight: 500;
+    margin-top: 20px;
+}
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    
+}
+.inputs-form {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+label {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 5px;
+    display: block;
+}
+.button {
+    padding: 10px 20px;
+    background-color: #1DC92E;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 270px;
+    height: 56px;
+    align-self: end;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: "Mali", cursive;
+    font-size: 26px;
+    color: #09731A;
+}
+.konto {
+    color: white;
+    margin-left: 50px;
+    font-size: 17px;
+}
+.konto:hover {
+    color: #1DC92E;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.vergessen {
+    margin-top: 20px;
+}
+.footer {
+    background-color: #1DC92E;
+    height: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Mali", cursive;
+    font-weight: 500;
+    font-style: normal;
+    color: #09731A;
+    font-size: 20px;
+}
+.footer-item {
+    margin-bottom: 3px;
+    margin-left: 20px;
+    list-style-type: none;
+}
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    height: 7vw;
+}
+input {
+    height: 50px;
+    width: 370px;
+    cursor: pointer;
+}
