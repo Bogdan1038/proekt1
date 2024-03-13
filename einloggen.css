@@ -86,7 +86,8 @@ a:hover {
 .registration-form {
     display: flex;
     flex-direction: column;
-    
+    flex-wrap: wrap;
+    height: 200px;
 }
 .inputs-form {
     margin-bottom: 10px;
@@ -106,31 +107,25 @@ label {
     cursor: pointer;
     width: 270px;
     height: 56px;
-    align-self: end;
     margin-left: 50px;
-    margin-bottom: 20px;
     font-weight: 700;
-    font-family: "Mali", cursive;
     font-size: 26px;
     color: #09731A;
+    margin-top: 50px;
+}
+.button:hover {
+    background-color: white;
 }
 .konto {
     color: white;
     margin-left: 50px;
     font-size: 17px;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
 }
 .konto:hover {
     color: #1DC92E;
-}
-.buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 50px;
-}
-.vergessen {
-    margin-top: 20px;
 }
 .footer {
     background-color: #1DC92E;

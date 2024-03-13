@@ -5,8 +5,6 @@
 }
 body {
     background: green url("images/macboook-pro-wallpaper-1024x576.jpg") no-repeat center/cover fixed;
-    background-repeat: no-repeat;
-    background-size: 100vw;
 }
 .header {
     background-color: #1DC92E;
@@ -66,7 +64,6 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .erste {
     margin-top: 140px;
@@ -110,7 +107,6 @@ a:hover {
     background-color: #023C08;
     height: 500px;
 }
-
 .info2 {
     display: flex;
     justify-content: center;

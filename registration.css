@@ -57,7 +57,6 @@ a {
 a:hover {
     color: white;
 }
-
 .container {
     display: flex;
     justify-content: center;
@@ -69,12 +68,12 @@ a:hover {
 }
 .inputs {
     width: 40vw;
-    height: 22vw;
+    height: 23vw;
     background-color: #09731A;
     opacity: 80%;
     color: white;
     font-family: "Mali", cursive;
-    flex-wrap: wrap ;
+    flex-wrap: wrap;
 }
 .title-inputs-div {
     display: flex;
@@ -87,6 +86,8 @@ a:hover {
 .registration-form {
     display: flex;
     flex-direction: column;
+    height: 400px;
+    flex-wrap: wrap;
 }
 .inputs-form {
     margin-bottom: 15px;
@@ -106,28 +107,25 @@ label {
     cursor: pointer;
     width: 270px;
     height: 56px;
-    align-self: end;
     margin-left: 50px;
-    margin-bottom: 20px;
     font-weight: 700;
-    font-family: "Mali", cursive;
     font-size: 26px;
     color: #09731A;
+    margin-top: 220px;
+}
+.button:hover {
+    background-color: white;
 }
 .konto {
     color: white;
     margin-left: 50px;
     font-size: 17px;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
 }
 .konto:hover {
     color: #1DC92E;
-}
-.buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 150px;
 }
 .footer {
     background-color: #1DC92E;
